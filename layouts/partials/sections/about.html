@@ -15,9 +15,9 @@
 
                 {{ if .Site.Params.about.skills.enable }}
                 {{ .Site.Params.about.skills.title }}
-                <ul>
+                <ul> 
                     {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | markdownify }}</li>
+                    <li>{{ . | markdownify  }}</li>
                     {{ end }}
                 </ul>
                 {{ end }}
