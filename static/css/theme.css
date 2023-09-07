@@ -13,6 +13,9 @@
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
 }
+.body {
+    transition: background 500ms
+}
 
 .text-secondary {
     color: var(--text-secondary-color) !important;
