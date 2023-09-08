@@ -16,9 +16,9 @@
                     {{ .Site.Params.hero.content | markdownify }}
                 </p>
                 <div class="row">
-                    <div class="col-auto h-100">
+                    <div class="col-auto">
                         {{ if .Site.Params.hero.button.enable }}
-                        <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
+                        <a href="{{ .Site.Params.hero.button.url }}" class="btn resume" {{ cond .Site.Params.hero.button.download "download" "" }}
 			  {{ if .Site.Params.hero.button.newPage | default true }}
                           target="_blank"
                           {{ end }}>
@@ -26,7 +26,7 @@
                         </a>
                         {{ end }}
                     </div>
-                    <div class="col-auto px-0 h-100">
+                    <div class="col-auto px-0">
                         {{- partial "sections/hero/social.html" . -}}
                     </div>
                 </div>
