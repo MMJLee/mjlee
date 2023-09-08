@@ -130,9 +130,9 @@ params:
             newPage: true
         socialLinks:
             fontAwesomeIcons:
-                - icon: fab fa-github
+                - icon: fab fa-github fa-lg
                   url: https://github.com/MMJLee
-                - icon: fab fa-linkedin
+                - icon: fab fa-linkedin-in fa-lg
                   url: https://www.linkedin.com/in/matthewmjlee
             # customIcons:
             #     - icon: /fav.png
