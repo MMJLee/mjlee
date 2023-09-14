@@ -13,12 +13,14 @@
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
 }
-.body {
-    transition: background 500ms
-}
 
 .text-secondary {
     color: var(--text-secondary-color) !important;
+}
+
+.theme-toggle-container{
+    vertical-align: middle;
+    height: 100%;
 }
 
 #theme-toggle:focus {
@@ -30,9 +32,13 @@
 }
 
 button#theme-toggle {
+    height: 100%;
     border: none;
     font-size: 26px;
     margin: auto 4px;
+    align-items: center; /* center the content vertically */
+    justify-content: center; /* center the content horizontally */
+    display: flex;
 }
 
 body.dark #moon {
