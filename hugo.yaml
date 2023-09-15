@@ -174,7 +174,7 @@ params:
               date: "Nov 2022 - Present"
               content: |
                   We have a small dev team, requiring members to be proficient at all parts of development.
-                  - Design and deploy RESTful APIs and elegant UIs
+                  - Design and deploy RESTful APIs and elegant UIs for a multi-tenant web app
                   - (re)Write ETL scripts utilizing Spark to reduce runtime
                   - Automate recurring work using Apache Airflow
                   - Troubleshoot and debug
