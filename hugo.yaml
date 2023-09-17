@@ -174,10 +174,10 @@ params:
               date: "Nov 2022 - Present"
               content: |
                   We have a small dev team, requiring members to be proficient at all parts of development.
-                  - Design and deploy RESTful APIs and elegant UIs for a multi-tenant web app
+                  - Design, develop, and deploy RESTful APIs and UI for a multi-tenant web app
                   - (re)Write ETL scripts utilizing Spark to reduce runtime
                   - Automate recurring work using Apache Airflow
-                  - Troubleshoot and debug
+                  - Troubleshoot and debug any failed jobs
                   
             - job: "Project Manager"
               company: "Cleveland-Cliffs"
